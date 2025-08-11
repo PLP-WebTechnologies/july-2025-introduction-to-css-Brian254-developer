@@ -1,0 +1,79 @@
+/* this is the universal selecetor. the symbol used is asterisk*/
+*{
+   text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: rgb(31, 99, 5);
+    
+}
+/*this the the element selector that applies to all p elements*/
+p{
+    color: black;
+    font-size: medium;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+    border: 2px;
+}
+/* the period selector is used with class selectors. In this case, it applies to all elements with the class "top-header" */
+.top-header {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;  
+    padding: 10px;
+    border: 2px solid black;
+    margin: auto;
+}
+/* in this case the period selector will apply to all elements with the class "components" */
+.Components{
+    color: wheat;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    border: 2px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+/* the id selector is used with the # symbol. In this case, it applies to the element with the id "components-list" */
+#components-list{
+    color: rgb(119, 21, 21);
+    font-size: 30px;
+}
+
+.declaration{
+    color: rgb(204, 37, 37);
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    border: 2px;
+    margin: 2px;
+    margin-top: 0%;
+}
+.syntax{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black; /* border is a shorthand property that sets the width, style, and color of the border */
+    margin: 0px;
+}
+#head-syntax{
+    color: #c79a07;
+    font-weight: 100;
+    font-size: 30px;
+    font-display: swap;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px; /* border-radius is a shorthand property that sets the radius of the border corners */
+}
+.css-example{
+    color: beige;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0px;
+    background-color: rgb(27, 15, 143);
+}
